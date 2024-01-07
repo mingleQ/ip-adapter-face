@@ -37,8 +37,8 @@ export default function Component() {
              Generate various styles of images based on a face by  the IP-Adapter-FaceID model
             </h1>
             <p className="text-gray-600 mb-6">
-            You upload a photo and enter a prompt like "photo of a woman in red dress in a garden" or "add sunglasses to the face." 
-            The model will then process this input and output an image with the requested modifications.
+              You upload a photo and enter a prompt like &quot;photo of a woman in red dress in a garden&quot; or &quot;add sunglasses to the face.&quot; 
+              The model will then process this input and output an image with the requested modifications.
             </p>
             <div className="flex items-center space-x-4">
               <Link href="/playground">
@@ -59,7 +59,7 @@ export default function Component() {
                 src="/faceid.png" // 确保图片路径是正确的
                 alt="Face ID Images"
                 className="w-full h-auto"
-              />
+            />
           </div>
         </div>
       </section>
